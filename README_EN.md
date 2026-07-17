@@ -6,7 +6,15 @@
 
 The AIBOX-OrinNano and AIBOX-OrinNX are both equipped with original NVIDIA Jetson Orin core modules. They come standard with industrial-grade all-metal casings and aluminum alloy structures for heat dissipation. The top cover features a strip grille design on the side for efficient cooling, ensuring computational performance and stability even under high-temperature operating conditions, meeting various industrial application requirements.
 
-![AIBOX Hardware](./res/1.webp)
+| Category | AIBOX-OrinNX | AIBOX-OrinNano |
+| ---- | ---- | ---- |
+| Module | Jetson Orin NX 16GB | Jetson Orin Nano 8GB |
+| AI Performance | 100 TOPS | 40 TOPS |
+| GPU | 1024-core NVIDIA Ampere architecture GPU with 32 Tensor Cores | 1024-core NVIDIA Ampere architecture GPU with 32 Tensor Cores |
+| CPU | 8-core 64-bit Arm Cortex-A78 CPU<br>2MB L2 Cache + 4MB L3 Cache | 6-core 64-bit Arm Cortex-A78 CPU<br>1.5MB L2 Cache + 4MB L3 Cache |
+| DDR | 16GB 128-bit LPDDR5, 102.4GB/s Bandwidth | 8GB 128-bit LPDDR5, 68GB/s Bandwidth |
+| HDMI | 4K @ 60Hz | 4K @ 30Hz |
+
 
 ## NVIDIA TensorRT
 
