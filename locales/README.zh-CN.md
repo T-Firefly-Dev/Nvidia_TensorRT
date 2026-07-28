@@ -34,13 +34,13 @@ TensorRT 生态系统包括 TensorRT、TensorRT-LLM、TensorRT 模型优化器�
 
 语义分割基于图像识别，但分类是在像素级别进行的，而不是在整个图像上进行。这是通过将预训练的图像识别骨干网络进行卷积化来实现的，将模型转换为能够进行逐像素标注的全卷积网络（FCN）。语义分割对于环境感知特别有用，它能够对每个场景中的许多不同潜在对象（包括前景和背景）进行密集的逐像素分类。
 
-![8](./res/2.webp)
+![8](../res/2.webp)
 
 ### SegNet 模型
 
 SegNet 的新颖之处在于解码器对其较低分辨率的输入特征图进行上采样的方式。具体地说，解码器使用了在相应编码器的最大池化步骤中计算的池化索引来执行非线性上采样。经上采样后的特征图是稀疏的，因此随后使用可训练的卷积核进行卷积操作，生成密集的特征图。SegNet 的架构与广泛采用的 FCN 以及众所周知的 DeepLab-LargeFOV，DeconvNet 架构进行比较。比较的结果揭示了在实现良好的分割性能时所涉及的内存与精度之间的权衡。
 
-![8](./res/3.webp)
+![8](../res/3.webp)
 
 ### 下载源码
 
@@ -58,4 +58,4 @@ $ git clone --recursive --depth=1 https://github.com/dusty-nv/jetson-inference
 $ ./segnet.py --network=fcn-resnet18-cityscapes city_0.jpg output_city_0.jpg
 ```
 
-![8](./res/4.webp)
+![8](../res/4.webp)
