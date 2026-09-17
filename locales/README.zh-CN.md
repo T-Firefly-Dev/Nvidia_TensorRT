@@ -1,8 +1,6 @@
 
 # 使用TensorRT打造实时语义分割应用
 
-[**English**](../README.md) | **简体中文**
-
 ## NVIDIA 系列 AIBOX ​
 
 AIBOX-OrinNano 和 AIBOX-OrinNX 均搭载 NVIDIA 原装 Jetson Orin 核心板模组，标配工业级全金属外壳，铝合金结构导热，顶盖外壳侧面采用条幅格栅设计，高效散热，保障在高温运行状态下的运算性能和稳定性，满足各种工业级的应用需求。

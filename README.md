@@ -1,7 +1,5 @@
 # TensorRT: A Real-Time Semantic Segmentation
 
-**English** | [**简体中文**](locales/README.zh-CN.md)
-
 ## NVIDIA Series AIBOX
 
 The AIBOX-OrinNano and AIBOX-OrinNX are both equipped with original NVIDIA Jetson Orin core modules. They come standard with industrial-grade all-metal casings and aluminum alloy structures for heat dissipation. The top cover features a strip grille design on the side for efficient cooling, ensuring computational performance and stability even under high-temperature operating conditions, meeting various industrial application requirements.
